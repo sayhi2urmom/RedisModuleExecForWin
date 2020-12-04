@@ -4,6 +4,7 @@ code函数随便写
 
 注意事项就是exitfunc设置成thread，别一断开连接redis-server.exe就退出了
 
+```bash
 msf6 exploit(multi/handler) > show options
 
 Module options (exploit/multi/handler):
@@ -26,4 +27,4 @@ Exploit target:
    Id  Name
    --  ----
    0   Wildcard Target
-   
+```
