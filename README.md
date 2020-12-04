@@ -1,5 +1,6 @@
 # RedisModuleExecForWin
 
+
 code函数随便写
 
 注意事项就是exitfunc设置成thread，别meterpreter一退出就redis-server.exe也退出了
