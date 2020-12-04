@@ -103,9 +103,8 @@ void code() {
 }
 
 extern "C" __declspec(dllexport) int RedisModule_OnLoad(RedisModuleCtx* ctx, RedisModuleString** argv, int argc) {
-    HANDLE hThread;
     DWORD  threadId;
-    hThread = CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)code, 0, 0, &threadId);
+    CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)code, 0, 0, &threadId);
     return REDISMODULE_ERR;
 }
 
