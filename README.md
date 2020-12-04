@@ -2,7 +2,7 @@
 
 code函数随便写
 
-注意事项就是exitfunc设置成thread，别一断开连接redis-server.exe就退出了
+注意事项就是exitfunc设置成thread，别meterpreter一退出就redis-server.exe也退出了
 
 ```bash
 msf6 exploit(multi/handler) > show options
