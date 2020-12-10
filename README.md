@@ -2,7 +2,7 @@
 
 
 code函数随便写
-
+gs保护关闭，mtd，release版本
 注意事项就是exitfunc设置成thread，别meterpreter一退出就redis-server.exe也退出了
 
 ```bash
